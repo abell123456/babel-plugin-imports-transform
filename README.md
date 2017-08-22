@@ -1,5 +1,7 @@
 # babel-plugin-imports-transform
 
+ES6 import代码智能转换Babel插件，优化(webpack等)打包构建体积。
+
 分为两种情形使用：index.js文件作为Babel插件来使用，而index-transform.js可以在js代码中单独调用函数来使用。  
 
 会将下面的import代码:
